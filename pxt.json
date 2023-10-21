@@ -9,10 +9,7 @@
     },
     "files": [
         "README.md",
-        "neopixel.ts"
-    ],
-    "testFiles": [
-        "neotest.ts"
+        "pixel.ts"
     ],
     "public": true,
     "supportedTargets": [
