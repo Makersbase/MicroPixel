@@ -1,0 +1,31 @@
+{
+    "name": "microPixel",
+    "version": "0.0.1",
+    "description": "MicroPixel micropixel.nl",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "ws2812b": "github:microsoft/pxt-neopixel"
+    },
+    "files": [
+        "README.md",
+        "neopixel.ts"
+    ],
+    "testFiles": [
+        "neotest.ts"
+    ],
+    "public": true,
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj",
+    "yotta": {
+        "config": {
+            "microbit-dal": {
+                "bluetooth": {
+                    "enabled": 0
+                }
+            }
+        }
+    }
+}
